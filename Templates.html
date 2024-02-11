@@ -9,6 +9,7 @@
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="lightbox.css" rel="stylesheet" />
 
         <title>FrontEnd Web Solutions</title>
     </head>
@@ -16,23 +17,23 @@
         <!--==================== HEADER ====================-->
         <header class="header">
             <nav class="nav container">
-                <a href="./index" class="nav__logo">
+                <a href="index.html" class="nav__logo">
                     &#60;FRONT/<span style="color: rgb(187, 18, 18)">END</span>&#62;
                 </a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="./index" class="nav__link">Home</a>
+                            <a href="index.html" class="nav__link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="./AboutUs" class="nav__link">About</a>
+                            <a href="AboutUs.html" class="nav__link">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="./portfolio" class="nav__link">Our Work</a>
+                            <a href="portfolio.html" class="nav__link">Our Work</a>
                         </li>
                         <li class="nav__item">
-                            <a href="./Templates" class="nav__link">Templates</a>
+                            <a href="Templates.html" class="nav__link">Templates</a>
                         </li>
                         <li class="nav__item">
                             <a href="tel:368-997-5814" class="nav__link">Contact Us!</a>
@@ -57,18 +58,24 @@
             <section class="home">
                 <div class="home__container container">
                     <div class="home__data">
-                        <span class="home__subtitle"></span>
-                        <h1 class="home__title">How are you?</h1>
-                        <p class="home__description">
-                            Ready to make your website a <span style="color: rgb(187, 18, 18)">REALITY?</span>
-                        </p>
-                        <a href="./portfolio" class="home__button">
-                            Portfolio
+                        <h1 class="home__title">ON A BUDGET?</h1>
+                    <p>
+                        <span class="home__subtitle">Transform your website dreams into reality affordably with our range of customizable website templates.</span>
+                    </p>
+                    <p>
+                        <span class="home__subtitle">Select your desired template, and we'll tailor it to perfectly match your preferences and needs.</span>
+                    </p>
+
+                    <p>
+                        <a href="Template_Brochure.pdf" class="home__button" download="">
+                            Download Brochure
                         </a>
+                    </p>
+                    
                     </div>
 
                     <div class="home__img">
-                        <img src="assets/img/me-img.png" alt="">
+                        <img src="assets/img/Temp.png" alt="">
                         <div class="home__shadow"></div>
                     </div>
                 </div>
@@ -87,5 +94,8 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+
+        <!--=============== Lightbox2 ===============-->
+        <script src="lightbox-plus-jquery"></script>
     </body>
 </html>
